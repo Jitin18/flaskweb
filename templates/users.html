@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DATABASE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    body{
+      background-image: url("data:image/jpeg;base64,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");
+      background-repeat: no-repeat ;
+           background-size: cover;
+            font-size: large;
+            text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container my-4">
+    <h2>Employee Data</h2>
+    </table>
+    <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone Numbers</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for user in userDetails %}
+        <tr>
+          <td> {{user[0]}} </td>
+          <td> {{user[1]}} </td>
+          <td> {{user[2]}} </td>
+          <td> {{user[3]}} </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+ 
+    </table>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
